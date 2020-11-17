@@ -82,6 +82,8 @@ function check(userName) {
     }
 
     console.log(userId);
+    this.prototype;
+    console.log(this.prototype);
 }
 
 check({
