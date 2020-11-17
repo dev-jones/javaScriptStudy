@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<ul id="myTask">
+    <li>Coding</li>
+    <li>Answering</li>
+    <li>Getting Paid</li>
+</ul>
+
+<script>
+
+$("#myTask").children().click(function() {
+
+    $(this).remove();
+});
+
+$("#myTask").append("<li>New li tag</li>");
+
+$("#myTask").on("click", "li", function(event) {
+
+    $("event.targe").remove();
+});
+
+</script>
+
+
+
+
+</body>
+</html>
