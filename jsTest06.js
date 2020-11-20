@@ -8,7 +8,7 @@
     jQuery.fn = jQuery.prototype = {
         constructor : jQuery,
         init : function(selector, context, rootjQuery) {
-            //...
+            //...s
         }
         
     }
